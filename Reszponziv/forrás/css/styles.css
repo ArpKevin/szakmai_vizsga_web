@@ -28,3 +28,17 @@ footer{
 footer img{
     height: 10em;
 }
+
+nav, main{
+    background-image: url('../img/tripBG.png');
+}
+
+footer{
+    background-color: darkblue;
+    color:white;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}

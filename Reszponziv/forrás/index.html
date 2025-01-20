@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-   
+   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -31,19 +31,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
                         </li>
 
                     </ul>
@@ -80,11 +70,29 @@
                 </div>
                 <div class="carousel-item">
                     <img src="img/gal12_w.jpg" class="d-block w-100" alt="Kétéltűek">
-
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Ismerd meg a Galapagos mesés világát</h1>
+                        <p>A Galápagos-szigetek az Egyenlítő közelében találhatók, és lenyűgöző természeti
+                            sokféleségükről, különleges élőlényeikről, valamint Charles Darwinra gyakorolt ​​hatásukról
+                            híresek.</p>
+                            
+                                <button type="button" class="btn btn-success">Jelentkezés</button>
+            <button type="button" class="btn btn-outline-danger">Veszélyek</button>
+                            
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/gal18_w.jpg" class="d-block w-100" alt="Halak">
-
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Ismerd meg a Galapagos mesés világát</h1>
+                        <p>A Galápagos-szigetek az Egyenlítő közelében találhatók, és lenyűgöző természeti
+                            sokféleségükről, különleges élőlényeikről, valamint Charles Darwinra gyakorolt ​​hatásukról
+                            híresek.</p>
+                            
+                                <button type="button" class="btn btn-success">Jelentkezés</button>
+            <button type="button" class="btn btn-outline-danger">Veszélyek</button>
+                            
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -101,7 +109,7 @@
     </header>
     <main>
         <div class="container">
-            <h1 class="display-4">Galapagos</h1>
+            <h1 class="display-4 text-center">Galapagos</h1>
             <p class="text-justify fs-5 lh-1-5">A Galápagos-szigetek az Egyenlítő közelében, Ecuador partjaitól nyugatra
                 fekszenek, és egyedülálló természeti csodáikról híresek. Ezek a szigetcsoportok lenyűgöző biológiai
                 sokféleséget kínálnak, amelyek között megtalálhatók a világ számos különleges és egyedülálló élőlényei.
@@ -115,7 +123,7 @@
                 
             <h2 class="text-center display-4">Kirándulások</h2>
             <div class="row row-cols-1">
-                <div class="col mb-2">
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
                     <div class="card h-100">
                         <img src="img/trip01.jpg" class="card-img-top" alt="Bálnák megfigyelése">
                         <div class="card-body">
@@ -129,8 +137,19 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
+                    <div class="card h-100">
+                        <img src="img/trip02.jpg" class="card-img-top" alt="Sziget túra">
+                        <div class="card-body">
+                            <h5 class="card-title">Sziget túra</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur accusantium illo impedit expedita amet quia unde fugiat laudantium, perspiciatis sint aliquam exercitationem officia delectus! Numquam illo ipsa quibusdam deleniti aliquam aspernatur facilis nemo dolorem nulla repellendus. Tempore quas, fuga eius sunt perferendis blanditiis porro nam neque asperiores quaerat, commodi labore at voluptatem vel delectus. Eveniet eos assumenda enim illo?</p>
+                            <a href="#" class="btn btn-primary">Tovább olvasok</a>
+                        </div>
+                    </div>
+                </div>
                 
-                <div class="col mb-2">
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
                     <div class="card h-100">
                         <img src="img/trip03.jpg" class="card-img-top" alt="Kaktuszok">
                         <div class="card-body">
@@ -143,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-2">
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
                     <div class="card h-100">
                         <img src="img/trip04.jpg" class="card-img-top" alt="Kalapácsorrú cetek">
                         <div class="card-body">
@@ -156,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-2">
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
                     <div class="card h-100">
                         <img src="img/trip05.jpg" class="card-img-top" alt="Korallok">
                         <div class="card-body">
@@ -169,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-2">
+                <div class="col mb-2 col-xl-4 col-md-6 col-12">
                     <div class="card h-100">
                         <img src="img/trip06.jpg" class="card-img-top" alt="Vízen épített bungalók">
                         <div class="card-body">
