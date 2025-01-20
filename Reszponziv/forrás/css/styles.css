@@ -1,0 +1,30 @@
+
+main{
+    padding: 20px
+}
+.carousel-caption{
+    color: darkblue;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 20px;
+    box-shadow: 0 0 20px grey;
+}
+main .container{
+    background-color: rgba(255,255,255,.4);
+    border-radius: 20px;
+    box-shadow: 0 0 20px grey
+}
+nav img{
+    height: 3em;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer{
+    padding: 2em 0;
+}
+
+footer img{
+    height: 10em;
+}
