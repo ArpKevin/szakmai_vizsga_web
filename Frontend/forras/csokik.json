@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "nev": "Mogyorós csoki",
+        "ara": "2500",
+        "raktaron": "1"
+    },
+    {
+        "id": "2",
+        "nev": "Fehér csoki",
+        "ara": "333",
+        "raktaron": "0"
+    },
+    {
+        "id": "3",
+        "nev": "Lyukas csoki",
+        "ara": "111",
+        "raktaron": "0"
+    },
+    {
+        "id": "4",
+        "nev": "Karamellás csoki",
+        "ara": "2000",
+        "raktaron": "1"
+    },
+    {
+        "id": "5",
+        "nev": "Édes csoki",
+        "ara": "500",
+        "raktaron": "1"
+    },
+    {
+        "id": "6",
+        "nev": "Narancsos csoki",
+        "ara": "1200",
+        "raktaron": "1"
+    },
+    {
+        "id": "7",
+        "nev": "Málnás csoki",
+        "ara": "1500",
+        "raktaron": "1"
+    },
+    {
+        "id": "8",
+        "nev": "Kókuszos csoki",
+        "ara": "1800",
+        "raktaron": "1"
+    },
+    {
+        "id": "9",
+        "nev": "Édes-sós csoki",
+        "ara": "1600",
+        "raktaron": "1"
+    },
+    {
+        "id": "10",
+        "nev": "Kávés csoki",
+        "ara": "1900",
+        "raktaron": "1"
+    }
+]

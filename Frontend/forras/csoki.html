@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <style>
+        .center-div{
+            margin: auto;
+            width: 50%;
+        }
+        .container{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+
+<body ng-app="CsokiApp" ng-controller="CsokiController">
+
+    <div class="center-div">
+        <input type="text" ng-model="csokiFilter" placeholder="Keresés..."><br>
+        <div class="container">
+            <div ng-repeat="csoki in csokik | filter:csokiFilter" ng-style="{'background-color': csoki.raktaron == 1 ? 'green' : 'red'}">
+                <h1>{{csoki.nev}}</h1>
+                <p>Ára: {{csoki.ara}} Ft</p>
+                <p>Raktáron: {{ csoki.raktaron == 1 ? "Van Raktáron" : "Nincs raktáron" }}</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        var app = angular.module('CsokiApp', []);
+        app.controller('CsokiController', function($scope, $http) {
+            $http.get('csokik.json')
+            .then(function(response){
+                $scope.csokik = response.data;
+            });
+        });
+    </script>
+</body>
+
+</html>
